@@ -8,9 +8,9 @@ function createLoginTracker(userInfo){
     if (passwordAttempt === userInfo.password) {
       return "Login successful";
     } else {
-      return ' Login attempt ${attemptCount}: Login failed';
+      return "Attempt ${attemptCount}:Login failed";
     }
-  }
+  };
 }
 
 
